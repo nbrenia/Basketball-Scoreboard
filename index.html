@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="teamScoreContainer">
+                <h3>HOME</h3>
+                <div class="scoreContainer">
+                    <p id="home">1</p>
+                </div>
+                <div class="buttons">
+                    <button onclick="homePlusOne()">+1</button>
+                     <button onclick="homePlusTwo()">+2</button>
+                     <button onclick="homePlusThree()">+3</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="homeReset()">Reset Score</button>
+                </div>
+            </div>
+            <div class="teamScoreContainer">
+                <h3>GUEST</h3>
+                <div class="scoreContainer">
+                    <p id="guest">1</p>
+                </div>
+                <div class="buttons">
+                    <button onclick="guestPlusOne()">+1</button>
+                    <button onclick="guestPlusTwo()">+2</button>
+                    <button onclick="guestPlusThree()">+3</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="guestReset()">Reset Score</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
